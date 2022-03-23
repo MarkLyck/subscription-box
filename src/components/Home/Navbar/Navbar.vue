@@ -16,7 +16,7 @@ const { t } = useI18n()
     </button>
 
     <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <div i-carbon-arrow-right />
+      <div i-carbon-dicom-overlay />
     </router-link>
   </nav>
 </template>

@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ActionButton: typeof import('./components/ui/ActionButton.vue')['default']
     Hero: typeof import('./components/Home/Hero/index.vue')['default']
     Navbar: typeof import('./components/Home/Navbar/Navbar.vue')['default']
     README: typeof import('./components/README.md')['default']

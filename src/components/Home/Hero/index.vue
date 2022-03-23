@@ -1,48 +1,22 @@
-<script>
-
-</script>
 
 <template>
   <div>
     <h1
-      class="from-purple-400 to-pink-600"
-      font="black "
-      bg="clip-text gradient-to-r"
+      class="tracking-tight leading-tight"
+      font="black"
       text="transparent size-8xl"
-      position="relative"
+      m="b-8"
     >
-      <span>Happy wife</span>
-      <br>
-      <span
-        class="from-purple-400 to-pink-600"
-        font="black"
-        bg="clip-text gradient-to-r"
-        text="transparent size-8xl"
-        position="relative"
-      >
-        Happy life
-        <div
-          display="flex"
-          bg="pink-500"
-          position="absolute bottom--2 right--20"
-          text="size-sm white"
-          p="y-2 x-4"
-          b="rounded"
-        >
-          🫀Subscription box
-        </div>
-      </span>
+      <div class="from-pink-500 to-purple-600" bg="clip-text gradient-to-r">
+        Happy Wife
+      </div>
+      <div class="from-indigo-700 to-green-400 " bg="clip-text gradient-to-r">
+        Happy Life
+      </div>
     </h1>
-    <div flex>
-      <button
-        display="flex"
-        p="2"
-        bg="indigo-500 hover:indigo-700"
-        b="rounded"
-        items="center"
-      >
-        <div i-carbon-arrow-right m="r-2" />Why Vue
-      </button>
-    </div>
+    <p text="size-xl gray-300">
+      The subscription box that makes your romantic gestures easy.
+    </p>
+    <ActionButton />
   </div>
 </template>
