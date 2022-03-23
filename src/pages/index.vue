@@ -15,12 +15,13 @@ const { t } = useI18n()
 
 <template>
   <div>
+    <Hero />
     <div text-4xl>
       <div i-carbon-campsite inline-block />
     </div>
     <p>
       <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
+        {{ t('company-name') }}
       </a>
     </p>
     <p>
@@ -57,8 +58,3 @@ const { t } = useI18n()
     </div>
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

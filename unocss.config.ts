@@ -23,8 +23,9 @@ export default defineConfig({
     }),
     presetTypography(),
     presetWebFonts({
+      provider: 'google',
       fonts: {
-        sans: 'DM Sans',
+        sans: 'Inter:100,200,300,400,500,600,700,800,900',
         serif: 'DM Serif Display',
         mono: 'DM Mono',
       },
